@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>DatatypesUsage</StartupObject>
+    <StartupObject>VarandDynamic</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -49,7 +49,7 @@
     <Compile Include="1.Basics.cs" />
     <Compile Include="2.Datatypes.cs" />
     <Compile Include="2.DataTypeUsage.cs" />
-    <Compile Include="Class1.cs" />
+    <Compile Include="3.VarandDynamic.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
