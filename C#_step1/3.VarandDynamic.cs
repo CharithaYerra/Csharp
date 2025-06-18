@@ -65,21 +65,7 @@
 
 
 
-        //String types to use
-
-        string sentence = "This is a sample sentence.";
-        string useOfVariable = $"The sentence is : {sentence}";
-
-        string specialChars = "This is  a \"special\" string with 'quotes' and \\backslashes\\";
-        Console.WriteLine("Special Characters String: " + specialChars);
-        //after usage of \ we need special chars 
-
-        //string myProjectPath = @"D:\Csharp - Training\CSharp\CSharp_Step1";
-        string myProjectPath = @"D:\Csharp - Training\\CSharp\\CSharp_Step1\";
-        Console.WriteLine(myProjectPath);
-
-
-
+        
 
 
 
