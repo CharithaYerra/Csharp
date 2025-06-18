@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Palindrome</StartupObject>
+    <StartupObject>String</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />

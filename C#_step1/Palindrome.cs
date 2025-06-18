@@ -17,9 +17,21 @@ class Palindrome
 
         ReverseMethod(input,lowered);
 
+        //Console.WriteLine("please enter a name");
+        //string sentence = Console.ReadLine();
+        //string reverse = new string(sentence.Reverse().ToArray());
+        //if (sentence == reverse)
+        //{
+        //    Console.WriteLine("the string is pallindrome");
+        //}
+        //else
+        //{
+        //    Console.WriteLine("its not a pallindrome");
+        //}
 
 
-       
+
+
     }
     static void ReverseMethod(string original,string input)
     {

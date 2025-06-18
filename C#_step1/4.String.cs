@@ -91,14 +91,34 @@ class String
         Console.WriteLine("the origina string is :" + originalString);
 
         string replacedString = originalString.Replace("World", "Siri");
-        
-        
-      
 
 
 
 
+        Console.WriteLine("Let us check the duplicate characters in the string");
+        Console.WriteLine("Enter a word :");
+        string wordtoCheck = Console.ReadLine();
 
+        for (int i= 0; i < wordtoCheck.Length; i++)
+        {
+            for (int j = i + 1; j < wordtoCheck.Length; j++)
+            {
+                if (wordtoCheck[i] == wordtoCheck[j])
+                {
+                    Console.WriteLine("Duplicate character found: " + wordtoCheck[i]);
+                    break;
+                }
+            }
+        }
+
+
+
+        Console.WriteLine("Count no of words in sentence");
+        Console.WriteLine("Enter a sentence :");
+        string CountWords = Console.ReadLine();
+        string[] splittedWords = CountWords.Split(' ');
+        int wordCount = splittedWords.Length;
+        Console.WriteLine("Number of words in the sentence:" + wordCount);
 
 
 
