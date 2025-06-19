@@ -40,7 +40,7 @@
         Console.WriteLine($"Explicit: double {pi} => int {approx}");
 
 
-        //Age convertor
+        //Age calculator
         Console.Write("Enter your birth year: ");
         int birthYear = int.Parse(Console.ReadLine());
 
