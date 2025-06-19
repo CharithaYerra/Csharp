@@ -58,6 +58,26 @@
             Console.WriteLine($"{number} is Even.");
         else
             Console.WriteLine($"{number} is Odd.");
+
+
+        //Grade Caluculations
+
+        Console.Write("Enter your score (0-100): ");
+        int score = int.Parse(Console.ReadLine());
+
+        string grade;
+
+        if (score >= 90)
+            grade = "A+";
+        else if (score >= 75)
+            grade = "B+";
+        else if (score >= 60)
+            grade = "C-";
+        
+        else
+            grade = "F";
+
+        Console.WriteLine($"Your grade is: {grade}");
     }
     }
 
