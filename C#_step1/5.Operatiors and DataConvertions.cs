@@ -135,6 +135,7 @@
         Console.WriteLine("nullbaleBool is ", nullbaleBool);
 
         bool? nullbaleBool1 = false;
+        Console.WriteLine(nullbaleBool1);
 
         /*
        Implicit Type Conversion (Type Promotion)
