@@ -54,6 +54,7 @@
     <Compile Include="5.Operatiors and DataConvertions.cs" />
     <Compile Include="6.Array.cs" />
     <Compile Include="6.Sorting.cs" />
+    <Compile Include="Conditional.cs" />
     <Compile Include="Polydrome.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="4.String.cs" />
