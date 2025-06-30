@@ -14,6 +14,7 @@ class TaskMethods
 
         Console.WriteLine("Enter name of gender (f/m):");
         studentDetails[2] = Console.ReadLine();
+        //The implict conversion is to convert the data types without losing any data
 
         int noOfstds = Details(studentDetails);
         int[] marks = { 20, 56, 64, 43, 34 };
@@ -99,7 +100,7 @@ class TaskMethods
                 }
 
         }
-        return false;
+        return false;//it returns if the switch case does not match
 
     }
 
