@@ -56,6 +56,7 @@
     <Compile Include="6.Sorting.cs" />
     <Compile Include="8.UsageOfWhile.cs" />
     <Compile Include="Conditional.cs" />
+    <Compile Include="Discount.cs" />
     <Compile Include="MessagingApp.cs" />
     <Compile Include="methods\Library.cs" />
     <Compile Include="methods\RestaurentOrder.cs" />

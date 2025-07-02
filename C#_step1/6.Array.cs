@@ -100,7 +100,10 @@
             Console.Write(num + " ");
         }
 
-        
+        string sen = "hello array";
+        char[] chars = sen.ToCharArray();
+
+
 
 
     }
