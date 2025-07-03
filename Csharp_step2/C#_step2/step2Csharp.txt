@@ -1,0 +1,9 @@
+﻿Do you know how to create a class?
+2. Do you know what is the method?
+3. Do you know what is the entry point?
+4. Method with Parms
+5. Method with non-return type
+6. Fields
+7. Main Method vs NOn-Main Method
+8. Do you know wht is instance ? wen its helpful
+ 
