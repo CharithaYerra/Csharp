@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Bank</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -44,7 +47,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="1.Field.cs" />
+    <Compile Include="1.UsageOfField.cs" />
+    <Compile Include="1.Usageofget.cs" />
     <Compile Include="2.Properties.cs" />
+    <Compile Include="2.Usageofconstructor.cs" />
+    <Compile Include="2.Usageofconstructor2.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
