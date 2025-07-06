@@ -55,6 +55,9 @@
     <Compile Include="3.logger.cs" />
     <Compile Include="exampleofstatic.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="revision\2.revision.cs" />
+    <Compile Include="revision\3.revision.cs" />
+    <Compile Include="revision\revisionuptoclass.cs" />
     <Compile Include="staticandnon.cs" />
   </ItemGroup>
   <ItemGroup>
