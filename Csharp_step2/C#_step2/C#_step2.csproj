@@ -53,6 +53,9 @@
     <Compile Include="2.Usageofconstructor.cs" />
     <Compile Include="2.Usageofconstructor2.cs" />
     <Compile Include="3.logger.cs" />
+    <Compile Include="4.rules.cs" />
+    <Compile Include="5.inheritence.cs" />
+    <Compile Include="6.Interface.cs" />
     <Compile Include="exampleofstatic.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="revision\2.revision.cs" />
