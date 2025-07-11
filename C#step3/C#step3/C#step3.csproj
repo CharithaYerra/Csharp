@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{036EB93A-2BDA-4486-9748-9EA12D90D96D}</ProjectGuid>
+    <ProjectGuid>{7C77B729-98D2-41D0-BA51-59000C3B1CE6}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>C__step2</RootNamespace>
-    <AssemblyName>C#_step2</AssemblyName>
+    <RootNamespace>C_step3</RootNamespace>
+    <AssemblyName>C#step3</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Bank</StartupObject>
+    <StartupObject>ProductInventory.Products</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,31 +46,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="1.Field.cs" />
-    <Compile Include="1.UsageOfField.cs" />
-    <Compile Include="1.Usageofget.cs" />
-    <Compile Include="2.Properties.cs" />
-    <Compile Include="2.Usageofconstructor.cs" />
-    <Compile Include="2.Usageofconstructor2.cs" />
-    <Compile Include="3.logger.cs" />
-    <Compile Include="4.rules.cs" />
-    <Compile Include="5.inheritence.cs" />
-    <Compile Include="6.Interface.cs" />
-    <Compile Include="exampleofstatic.cs" />
+    <Compile Include="method revision\1_usageofmethod.cs" />
+    <Compile Include="method revision\2_methodsUsage.cs" />
+    <Compile Include="method revision\3_methodusage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="revision\2.revision.cs" />
-    <Compile Include="revision\3.revision.cs" />
-    <Compile Include="revision\revisionuptoclass.cs" />
-    <Compile Include="staticandnon.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="step2Csharp.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="class\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
