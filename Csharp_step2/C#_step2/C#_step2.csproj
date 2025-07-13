@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Bank</StartupObject>
+    <StartupObject>UsageofInheritence</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -62,6 +62,21 @@
     <Compile Include="revision\3.revision.cs" />
     <Compile Include="revision\revisionuptoclass.cs" />
     <Compile Include="staticandnon.cs" />
+    <Compile Include="Task\10_differentclasseswithinterface.cs" />
+    <Compile Include="Task\11_staticandnonstatic.cs" />
+    <Compile Include="Task\12_Abstract.cs" />
+    <Compile Include="Task\13_Overridewithvirtual.cs" />
+    <Compile Include="Task\14_MethodOverloading.cs" />
+    <Compile Include="Task\15_OverloadingUsage.cs" />
+    <Compile Include="Task\1_Differentreturn.cs" />
+    <Compile Include="Task\2_DifferentParameter.cs" />
+    <Compile Include="Task\3_Differentreturn_Differentparameters.cs" />
+    <Compile Include="Task\4_Namespacewithclass.cs" />
+    <Compile Include="Task\5_differentNamespace.cs" />
+    <Compile Include="Task\6_DifferentNamespacewithdifferentclass.cs" />
+    <Compile Include="Task\7_inhereitenceusage.cs" />
+    <Compile Include="Task\8_InterfaceUsage.cs" />
+    <Compile Include="Task\9_Singleclasswithdiffentingerface.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
