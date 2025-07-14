@@ -1,8 +1,8 @@
 ﻿using System;
 
-///////////////////////////
+
 // Base Class: Human
-///////////////////////////
+
 class Human
 {
     public string FullName { get; set; }
@@ -16,9 +16,9 @@ class Human
     }
 }
 
-///////////////////////////
+
 // Derived Class: EmployeeDetails
-///////////////////////////
+
 class EmployeeDetails : Human // Inherits from Human
 {
     public string Department { get; set; }
@@ -32,9 +32,8 @@ class EmployeeDetails : Human // Inherits from Human
     }
 }
 
-///////////////////////////
+
 // Main Program Class
-///////////////////////////
 class InheritanceExampleProgram
 {
     static void Main()

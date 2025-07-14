@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>UsageofInheritence</StartupObject>
+    <StartupObject>DebuggingDemo.DebugDemo</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -56,6 +56,8 @@
     <Compile Include="4.rules.cs" />
     <Compile Include="5.inheritence.cs" />
     <Compile Include="6.Interface.cs" />
+    <Compile Include="demo\debugwithinheritencd.cs" />
+    <Compile Include="demo\demo.cs" />
     <Compile Include="exampleofstatic.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="revision\2.revision.cs" />
