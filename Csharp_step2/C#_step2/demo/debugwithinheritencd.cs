@@ -32,15 +32,15 @@ namespace OnlineCoursePlatform
         // Premium users get 20% off if they take 3+ extra courses
         public override double CalculateAnnualFee()
         {
-            double baseAnnual = MonthlyFee * 12;
+            double AnnualfeeS = MonthlyFee * 12;
 
             if (ExtraCourses >= 3)
-                return baseAnnual * 0.80;
+                return AnnualfeeS * 0.80;
             else
-                return baseAnnual;
+                return AnnualfeeS;
         }
     }
-
+    //start point
     class Program
     {
         static void Main()
