@@ -47,7 +47,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="calls\Ascynchronouscalls.cs" />
+    <Compile Include="exception\exceptionhandling.cs" />
+    <Compile Include="exception\extension_methods.cs" />
     <Compile Include="calls\synchronouscalls.cs" />
+    <Compile Include="calls\taskdelay.cs" />
+    <Compile Include="calls\Threadsleep.cs" />
     <Compile Include="method revision\1_usageofmethod.cs" />
     <Compile Include="method revision\2_methodsUsage.cs" />
     <Compile Include="method revision\3_methodusage.cs" />
