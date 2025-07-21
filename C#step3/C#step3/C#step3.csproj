@@ -47,6 +47,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="calls\Ascynchronouscalls.cs" />
+    <Compile Include="calls\drone.cs" />
+    <Compile Include="calls\onlineorder.cs" />
+    <Compile Include="calls\onlineorder2.cs" />
+    <Compile Include="calls\parking.cs" />
     <Compile Include="exception\exceptionhandling.cs" />
     <Compile Include="exception\extension_methods.cs" />
     <Compile Include="calls\synchronouscalls.cs" />
