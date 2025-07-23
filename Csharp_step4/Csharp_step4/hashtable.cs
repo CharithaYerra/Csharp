@@ -15,6 +15,8 @@ class HashtableExample
         {
             Console.WriteLine($"{entry.Key}: {entry.Value}");
         }
+
+
     }
 }
 }
