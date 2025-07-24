@@ -43,6 +43,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="1robot.cs" />
+    <Compile Include="advance\arrayadvance.cs" />
+    <Compile Include="advance\arraylistadvance.cs" />
+    <Compile Include="advance\dictionaryadv.cs" />
+    <Compile Include="advance\hashsetadv.cs" />
+    <Compile Include="advance\hashtableadv.cs" />
+    <Compile Include="advance\listadv.cs" />
+    <Compile Include="advance\tupleadv.cs" />
     <Compile Include="array.cs" />
     <Compile Include="arraylist.cs" />
     <Compile Include="dictionary.cs" />
@@ -55,8 +63,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="advance\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
