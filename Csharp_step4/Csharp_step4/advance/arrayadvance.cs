@@ -1,6 +1,6 @@
 ﻿using System;
 
-class ArrayExample
+class ArrayExampleAdvance
 {
     // Method 1: Accept array as parameter and print it
     public static void PrintArray(int[] numbers)
@@ -28,7 +28,7 @@ class ArrayExample
         }
     }
 
-    static void Main(string[] args)
+    static void Main()
     {
         // Example 1: Passing array to a method
         int[] numbers = { 1, 2, 3, 4, 5 };
