@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>OnlineCoursePlatform.Program</StartupObject>
+    <StartupObject>WhenAllExample.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -58,6 +58,7 @@
     <Compile Include="6.Interface.cs" />
     <Compile Include="demo\debugwithinheritencd.cs" />
     <Compile Include="demo\demo.cs" />
+    <Compile Include="demo\Whenall.cs" />
     <Compile Include="exampleofstatic.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="revision\2.revision.cs" />
